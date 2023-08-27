@@ -9,6 +9,9 @@ app.get('/api', (req, res) => {
             name: 'Roman English',
             lastname: 'ahmadu',
             like: ['food', 'fo', 'mysql'],
+            more: {
+                text: 'testing 123'
+            }
         }
     })
 });
